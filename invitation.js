@@ -1,15 +1,3 @@
-// function hello(name){ 
-//     if(name){ 
-//         return "Hello, " + name + "!"; 
-//     }else{ 
-//         return "Hello there!"; 
-//     } 
-// } 
-
-// var name = window.prompt("Enter your name: ");
-// alert("Your name is " + name);
-
-
 let a = "";
 a = window.prompt("Enter your name:");
 document.getElementById("name").innerHTML = a;
@@ -23,11 +11,3 @@ function randomlinks(){
 
 	window.location=links[myrandom]
 }
-
-
-// var person = prompt("Please enter your name", "Harry Potter");
-
-// if (person != null) {
-//   document.getElementById("demo").innerHTML =
-//   "Hello " + person + "! How are you today?";
-// }
