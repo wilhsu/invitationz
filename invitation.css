@@ -1,0 +1,46 @@
+a:link{color:transparent;text-decoration:none;cursor:pointer;}
+a:visited{color:red;text-decoration:none;}
+a:hover{color:red;text-decoration:none;}
+
+@font-face{
+	font-family: westsac, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@keyframes bg{
+	0% {
+		background-color: #000000;
+	}
+	50%{
+		background-color: #1c1c1c;
+	}
+	100%{
+		background-color: #222222;
+	}
+}
+
+body{
+	width:100vw;
+	height:100vh;
+	margin:0;
+	background-color: black;
+	text-align: center;
+	animation:bg 3s infinite;
+	animation-direction: alternate;
+	cursor: help;
+}
+
+h1:hover{
+	color:#F4EEEC;
+}
+
+h1{
+	font-size: 50px;
+	/*text-shadow: initial;*/
+	font-family: westsac;
+	color: rgba(0,0,0,0);
+  	text-shadow: 0px 0px 20px grey;
+  	cursor:default;
+}
+
